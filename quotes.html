@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!--logo-->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<!--End fo logo-->
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Pinegrow Web Editor - Agency Bootstrap v5 Template">
+        <meta name="author" content="">
+        <title>RoberTHirwa</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="blocks.css">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body class="text-secondary">
+        <header>
+            <nav class="bg-primary border-bottom navbar navbar-dark navbar-expand-lg py-lg-1"> 
+                <div class="container"> <a class="fw-bold navbar-brand text-capitalize" href="index.html">RoberTHirwa</a> 
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown-4" aria-controls="navbarNavDropdown-4" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> 
+                    </button>                     
+                    <div class="collapse navbar-collapse " id="navbarNavDropdown-4"> 
+                        <ul class="navbar-nav"> 
+                            <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="index.html">Home</a></li>
+                            <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="#">About</a> 
+                            </li>
+                            <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="Sources.html">Sources</a> 
+                            </li>
+                            <!--<li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="#">Work</a> 
+                            </li>                             
+                            <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="blog.html">Blog</a> 
+                            </li>                             
+                            <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="#">Contact Us</a> 
+                            </li>  -->                            
+                        </ul>                         <a class="btn btn-light ms-lg-auto ps-4 pe-4 rounded-pill" href="quotes.html">Request a Quote</a> 
+                    </div>                     
+                </div>                 
+            </nav>
+        </header>
+        <div class="container">
+</div>
+    </header>
+   <!--Starting of HTML-->
+
+       <!-- Image Grid -->
+       <div class="grid-container">
+        <div class="grid-item" onclick="openSlider(3)"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/carnegie-quote.png?v=1706739887" alt="Image 4"></div>
+        <div class="grid-item" onclick="openSlider(3)"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/nelson-mandela-quote.png?v=1706739919" alt="Image 5"></div>
+        <div class="grid-item" onclick="openSlider(3)"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/tina-fey-quote.png?v=1706739945" alt="Image 6"></div>
+        <div class="grid-item" onclick="openSlider(3)"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/zig-ziglar-quote.png?v=1706739986" alt="Image 7"></div>
+        <div class="grid-item" onclick="openSlider(3)"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/michael-jordan-quote.png?v=1706740012" alt="Image 8"></div>
+        <div class="grid-item" onclick="openSlider(3)"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/kent-quotes.png?v=1706740061" alt="Image 9"></div>
+        <div class="grid-item" onclick="openSlider(3)"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/ford-quote.png?v=1706740232" alt="Image 10"></div>
+
+           <div class="grid-item" onclick="openSlider(0)"><img src="https://plus.unsplash.com/premium_photo-1728044138824-be1f80079bfc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8" alt="Image 1"></div>
+           <div class="grid-item" onclick="openSlider(1)"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/rogers-quote.png?v=1706739736" alt="Image 2"></div>
+           <div class="grid-item" onclick="openSlider(2)"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/rohn-quote.png?v=1706739779" alt="Image 3"></div>
+           <div class="grid-item" onclick="openSlider(3)"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/arlan-hamilton-quote.png?v=1706739848" alt="Image 4"></div>
+       </div>
+   
+       <!-- Image Slider -->
+       <div id="slider-modal" class="slider-modal" >
+           <div class="slider">
+               <div class="slides">
+                <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/carnegie-quote.png?v=1706739887" alt="Slide 4"></div>
+                <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/nelson-mandela-quote.png?v=1706739919" alt="Slide 5"></div>
+                <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/tina-fey-quote.png?v=1706739945" alt="Slide 6"></div>
+                <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/zig-ziglar-quote.png?v=1706739986" alt="Slide 7"></div>
+                <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/michael-jordan-quote.png?v=1706740012" alt="Slide 8"></div>
+                <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/kent-quotes.png?v=1706740061" alt="Slide 9"></div>
+                <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/ford-quote.png?v=1706740232" alt="Slide 310"></div>
+
+
+
+
+                   <div class="slide"><img src="https://plus.unsplash.com/premium_photo-1728044138824-be1f80079bfc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8" alt="Slide 1"></div>
+                   <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/rogers-quote.png?v=1706739736" alt="Slide 2"></div>
+                   <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/rohn-quote.png?v=1706739779" alt="Slide 3"></div>
+                   <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0070/7032/files/arlan-hamilton-quote.png?v=1706739848" alt="Slide 4"></div>
+               </div>
+               <button class="arrow prev" onclick="prevSlide()">&#10094;</button>
+               <button class="arrow next" onclick="nextSlide()">&#10095;</button>
+               <button class="close-btn" onclick="closeSlider()">&#10006;</button>
+               <div class="indicator"></div>
+           </div>
+       </div>
+   
+       <script src="script.js"></script>
+
+   
+    <!--End of HTML-->
+
+     <!--Starting of CSS-->
+     <style>/* Grid Layout */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        
+        .grid-item img:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Slider Modal */
+        .slider-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        
+        .slider {
+            position: relative;
+            width: 80%;
+            max-width: 800px;
+            overflow: hidden;
+        }
+        
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        
+        .slide {
+            min-width: 100%;
+        }
+        
+        .slide img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        
+        /* Navigation Buttons */
+        .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+            z-index: 1;
+        }
+        
+        .arrow.prev {
+            left: 10px;
+        }
+        
+        .arrow.next {
+            right: 10px;
+        }
+        
+        .arrow:hover {
+            color: #ff6666;
+        }
+        
+        /* Close Button */
+        .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .close-btn:hover {
+            color: #ff6666;
+        }
+        
+        /* Dots */
+        .indicator {
+            position: absolute;
+            bottom: 20px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .dot {
+            height: 10px;
+            width: 10px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .dot.active {
+            background-color: white;
+        }
+        </style>
+
+    <!--End of CSS-->   
+<!--Starting of JavaScript-->
+<script>
+const slides = document.querySelector('.slides');
+const dotsContainer = document.querySelector('.indicator');
+const slideCount = document.querySelectorAll('.slide').length;
+let currentIndex = 0;
+
+// Open the slider
+function openSlider(index) {
+    document.getElementById('slider-modal').style.display = 'flex';
+    showSlide(index);
+}
+
+// Close the slider
+function closeSlider() {
+    document.getElementById('slider-modal').style.display = 'none';
+}
+
+// Show the current slide
+function showSlide(index) {
+    currentIndex = (index + slideCount) % slideCount;
+    slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+    updateDots();
+}
+
+// Navigate to the next slide
+function nextSlide() {
+    showSlide(currentIndex + 1);
+}
+
+// Navigate to the previous slide
+function prevSlide() {
+    showSlide(currentIndex - 1);
+}
+
+// Update the active dot
+function updateDots() {
+    const dots = document.querySelectorAll('.dot');
+    dots.forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
+}
+
+// Create dots for each slide
+for (let i = 0; i < slideCount; i++) {
+    const dot = document.createElement('span');
+    dot.classList.add('dot');
+    if (i === 0) dot.classList.add('active');
+    dot.addEventListener('click', () => showSlide(i));
+    dotsContainer.appendChild(dot);
+}
+</script>
+    <!--End of JavaScript-->
+
+
+
+
+<footer class="bg-dark pt-5 text-white"> 
+    <div class="container"> 
+        <div class="row"> 
+            <div class="col-xl-4 me-auto py-3"> <a href="#" class="d-inline-block h2 mb-4 text-capitalize text-decoration-none text-white-50">RoberTHirwa</a> 
+                <p class="mb-3">Feel free to reach out via:</p> 
+                <div class="mb-4"><a href="#" class="link-light text-decoration-none">+2</a>50 788951159<br> <a href="#" class="link-light text-decoration-none">roberthirw@gmail.com</a>
+                </div>                         
+                <div class="d-inline-flex flex-wrap"> <a href="#" class="p-1 text-white" aria-label="facebook link"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                            <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/> 
+                        </svg> </a> <a href="#" class="p-1 text-white" aria-label="twitter link"> </a> <a href="#" class="p-1 text-white" aria-label="instagram link"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                            <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/> 
+                        </svg> </a> <a href="#" class="p-1 text-white" aria-label="linkedin link"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                            <path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"/> 
+                        </svg> </a> <a href="#" class="p-1 text-white" aria-label="youtube link"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                            <path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"/> 
+                        </svg> </a> 
+                </div>                         
+            </div>                     
+                          
+        </div>                 
+        <div class="pb-3 pt-3 text-center"> 
+            <hr class="border-secondary mt-0"> 
+            <p class="mb-0">Copyright &copy; 2024 PG RoberTHirwa.</p> 
+        </div>                 
+    </div>             
+</footer>
+<script src="assets/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
